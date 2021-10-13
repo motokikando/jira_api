@@ -66,7 +66,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
 
-ROOT_URLCONF = 'dissertation_api.urls'
+ROOT_URLCONF = 'jira_api.urls'
 
 TEMPLATES = [
     {
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dissertation_api.wsgi.application'
+WSGI_APPLICATION = 'jira_api.wsgi.application'
 
 #Django REST frameworkの設定
 REST_FRAMEWORK = {
